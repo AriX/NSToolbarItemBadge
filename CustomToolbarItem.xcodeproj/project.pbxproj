@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		020C15841E74D1B0003391F1 /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020C15831E74D1B0003391F1 /* BadgeView.swift */; };
 		95A8834F1E73596300AFC618 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A8834E1E73596300AFC618 /* AppDelegate.swift */; };
 		95A883511E73596300AFC618 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A883501E73596300AFC618 /* ViewController.swift */; };
 		95A883531E73596300AFC618 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95A883521E73596300AFC618 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		020C15831E74D1B0003391F1 /* BadgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeView.swift; sourceTree = "<group>"; };
 		95A8834B1E73596300AFC618 /* CustomToolbarItem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomToolbarItem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95A8834E1E73596300AFC618 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95A883501E73596300AFC618 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				95A8834E1E73596300AFC618 /* AppDelegate.swift */,
 				95A883501E73596300AFC618 /* ViewController.swift */,
 				95A8835D1E735CB600AFC618 /* NSToolbarBadgedItem.swift */,
+				020C15831E74D1B0003391F1 /* BadgeView.swift */,
 				95A883521E73596300AFC618 /* Assets.xcassets */,
 				95A883541E73596300AFC618 /* Main.storyboard */,
 				95A883571E73596300AFC618 /* Info.plist */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				020C15841E74D1B0003391F1 /* BadgeView.swift in Sources */,
 				95A883511E73596300AFC618 /* ViewController.swift in Sources */,
 				95A8834F1E73596300AFC618 /* AppDelegate.swift in Sources */,
 				95A8835E1E735CB600AFC618 /* NSToolbarBadgedItem.swift in Sources */,
@@ -196,7 +200,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -239,7 +243,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -293,6 +297,7 @@
 				95A8835C1E73596300AFC618 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
